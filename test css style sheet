@@ -1,0 +1,73 @@
+p.m {
+    border-bottom: 10px solid red;
+   border-top:10px solid blue;
+   background-color: purple;
+   border-right: 10px solid green;
+   border-left: 10px solid yellow;
+}
+p.h {
+
+	border: 10px solid transparent;
+    padding: 15px;
+}
+#borderimg {
+    border: 100px  transparent;
+    padding: 15px;
+    border-image: url(glitch.jpg) 10% stretch;
+	background: url(glitch.jpg) 10%;
+}
+#borderimg2 {
+    border: 100px  transparent;
+    padding: 15px;
+    border-image: url(Cool wolf.jpg);
+	background: url(Cool wolf.jpg) 100%;
+
+}
+p {
+	font-size: 110%;
+	 overflow-x: auto;
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0066ff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.bgimg {
+    background-image: url(eye2.gif) ;
+	background-size: 25%;
+opacity: .2;
+}
+.tinted-image {
+  background-image: url('yes.jpg');
+    background-color: red;
+    background-blend-mode: screen;
+}
+.tinted-image {
+  background-image: url('Logo.png');
+    background-blend-mode: screen;
+    width: 1500px;
+    height: 1500px;
+    position: top-right;
+    repeat: no-repeat;
+}
